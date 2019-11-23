@@ -1,0 +1,2 @@
+Shell: shell.c cd.c echo.c history.c pinfo.c andbg.c jobs.c dirty.c forking.c pipe.c ls.c nightwatch.c qinterrupt.c cronjob.c
+	gcc -ggdb -o Shell shell.c cd.c history.c jobs.c echo.c pinfo.c andbg.c pipe.c dirty.c forking.c ls.c nightwatch.c cronjob.c qinterrupt.c -I.

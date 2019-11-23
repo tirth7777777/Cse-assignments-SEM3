@@ -1,0 +1,60 @@
+This is  a program to reciprocate a basic terminal
+How to run:
+	make
+	./Shell
+
+Description of each function is as follows:
+1)readcmd():This function is to remove space from command 
+2)behind():This function is to remove extra spaces
+3)gethome():This is to get home directory
+4)username():This is to get username
+5)getinput():This is to convert input into form of execvp() command
+6)delete():This function is delete element in linked list
+7)insert():THis is to insert into linked list
+8)forking():This is to use all commandsusing execvp()
+9)concatdirectory():This is used to print ~ in interface
+10)nightwatch():this is to use nightwatch command with -n as flag and interrupts as other flag
+11)cd():This is to implement cd in our shell
+12)echo():this is to implement echo()
+13)pinfo():this is to implement pinfo() (user defined function)
+14)permission():This is to get permission of the file or directory
+15)nlinks():This is to get links of the file or directory
+16)uname():THis is to get user of the file
+17)groupname():This is to get group owner of the file
+18)filesize():this is to get filesize
+19)createtime():this is to get last modified time of the file
+20)al():to print ls with a and l flags
+21)lo():to print ls with l flags
+22)a():to print ls with a flag
+23)l():to print ls with no flag
+24)ls():to get flags and directory for ls command
+25)dirty():this is to use nightwatch command with -n as flag and dirty as other flag
+26)andbg():this is to create process for commands with bg
+27)runshell():this is for interface and taking input
+28)execute() to execute any process
+29)checkpiped():check if there is pipe
+30)piper():to implement pipe
+31)noofargs():gives no of arguments
+32)ntharg():gives nth argument
+33)cronjob():Executes cronjob
+34)history():create history
+35)createfile():creating history file
+36)up():getting commands from history
+
+
+This code will implement:
+1)Foreground and background processes
+2) Implement input-output redirection functionality
+3)Implement command redirection using pipes
+4)Implement i/o redirection + pipes redirection
+5)User-defined commands
+	a)setenv
+	b)unsetenv
+	c)jobs
+	d)kjob
+	e)fg
+	f)bg
+	g)overkill
+	h)quit
+	i)up arrow key
+	j)Cronjob()
